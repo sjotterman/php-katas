@@ -1,0 +1,19 @@
+{
+    "name": "samuelotterman/php-katas",
+    "description": "PHP katas to learn and practice",
+    "authors": [
+        {
+            "name": "Samuel Otterman",
+            "email": "samuelotterman@futurimedia.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "codeception/codeception": "^2.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kata\\": "src/"
+        }
+    }
+}
